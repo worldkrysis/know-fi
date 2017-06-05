@@ -1,15 +1,20 @@
-Notepad is a Jekyll theme which is very simple, clean and beautiful. This theme is good for any blog.
+Part-CS learning project (Ruby, CSS, JS, HTML), part-writing project for my biggest passion: music. All comments/suggestions are appreciated, whether on coding or on writing.
+
+Cheers,
+Krystian
+
+===================
+
+Blog heavily borrows from Hossain Mohd. Faysal's Notepad jekyll-theme. You can find the source at his [Github](https://github.com/hmfaysal/Notepad). Description from his readme as follows:
 
 Main Features:
 
 * Zurb Foundation 5 – css framework
 * Scss files with settings file
-* Fullscreen post covers with header wich will be bright or dark according to background image
+* Fullscreen post covers with header which will be bright or dark according to background image
 * Fast and light
 * Font Awesome
 * Disqus comments integration
-
-You can set post image covers by using only Kramdown narkdown, just place something like this: `![cover-image](http://path-to-your-image.jpg)`
 
 Credits:
 
@@ -19,9 +24,3 @@ Credits:
 * Background check [http://kennethcachia.com/background-check](http://kennethcachia.com/background-check)
 * Codrops article: [http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/](http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/)
 * There are also tools like jQuery, Modernizr, Normalize.
-
-If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
-
-
-Warm Regards and Stay Creative,  
-Hossain Mohd. Faysal
