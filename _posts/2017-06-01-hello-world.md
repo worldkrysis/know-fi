@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Theme Elements
-description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-modified: 2013-05-31
-category: articles
-tags: [sample post]
+title: Hello World
+description: "Test."
+category: reviews
+tags: [reviews]
 imagefeature: cover6.jpg
 comments: true
 share: true

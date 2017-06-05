@@ -10,21 +10,21 @@ url:        	  /know-fi
 owner:
   name:           Krysitan Zawodniak
   #avatar:        not done yet
-  email:          krystian.zawodniak@gmail.com
+  email:          worldkrysis@users.noreply.github.com
 
-  # Links to include in footer navigation
+  # Links to include in header navigation
   # For external links add external: true
-  links:
-    - title: Home
-      url: /
-      external: false
-      icon: home
-    - title: Featured Posts
-      url: /featured
-    - title: Categories
-      url: /categories
-    - title: About
-      url: /about
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Featured Posts
+    url: /featured
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
 
 
 
