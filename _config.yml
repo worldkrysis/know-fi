@@ -11,8 +11,8 @@ owner:
   name:           Krysitan Zawodniak
   #avatar:         avatar.jpg
   email:          worldkrysis@users.noreply.github.com
-  twitter:        http://twitter.com/worldkrysis
-  github:         http://github.com/worldkrysis
+  twitter:        worldkrysis
+  github:         worldkrysis
 
   # Links to include in header navigation
   # For external links add external: true
