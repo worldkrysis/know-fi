@@ -2,8 +2,8 @@
 layout: post
 title: Hello World
 description: "Test."
-category: reviews
-tags: [reviews]
+category:
+tags: 
 imagefeature: cover6.jpg
 comments: true
 share: true

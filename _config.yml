@@ -14,7 +14,7 @@ owner:
   twitter:        worldkrysis
   github:         worldkrysis
 
-  # Links to include in header navigation
+  # Links to include in footer navigation
   # For external links add external: true
 links:
   - title: Home
