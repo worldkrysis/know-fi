@@ -8,8 +8,8 @@ dropcap:			true
 url:        	  /know-fi
 
 owner:
-  name:           Krysitan Zawodniak
-  #avatar:         avatar.jpg
+  name:           Krystian Zawodniak
+  avatar:         avatar.jpg
   email:          worldkrysis@users.noreply.github.com
   twitter:        worldkrysis
   github:         worldkrysis
@@ -79,7 +79,7 @@ prose:
         field:
           label: "Title"
           element: "text"
-          value: "An Awesome Headline!"
+          value: "An Awesome Headline!" #wtf is this???
       - name: "description"
         field:
           element: "text"

@@ -1,17 +1,22 @@
-/* tools */
+opk/* tools */
 .cf:before,
 .cf:after {
   content: " ";
   display: table; }
 
 .cf:after {
-  clear: both; }
+  clear: both;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
   height: auto;
   min-height: 100%;
   line-height: 1; }
+.about {
+  height: 2rem;
+  font-style: italic;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
@@ -74,6 +79,7 @@ main, .notepad-share-icons, .notepad-disqus {
     padding-top: 0;
     padding-bottom: 3.125rem; }
     .notepad-blog-menu ul li {
+      overflow: hidden;
       display: block;
       margin: 0;
       width: 100%;
@@ -131,7 +137,7 @@ main, .notepad-share-icons, .notepad-disqus {
             width: auto;
             height: auto; }
             .notepad-blog-menu ul li a:hover {
-              border-bottom: 0.1875rem solid #6a3442; } }
+              border-bottom: 0.1875rem solid white; } }
 
 .notepad-site-head .notepad-site-head-menu {
   background: #34426a; }
@@ -160,7 +166,7 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: black;
+  background-image: url("../../images/background.jpeg");
   background-size: cover; }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
@@ -358,7 +364,7 @@ nav.pagination {
   .notepad-site-footer .social-icons,
   .notepad-site-footer .copyright {
     width: 100%;
-    padding: 0;
+    padding: ;
     text-align: center; }
   .notepad-site-footer .copyright {
     color: white;
@@ -379,7 +385,7 @@ nav.pagination {
     .notepad-site-footer .social-icons,
     .notepad-site-footer .copyright {
       width: 49%;
-      padding: 5rem; }
+      padding: 2rem; }
     .notepad-site-footer .copyright {
       text-align: left;
       float: left; }
@@ -443,6 +449,7 @@ nav.pagination {
       .notepad-tags-container .notepad-tags-header {
         font-size: 1.5625rem; } }
 figure {
+    display: block
     margin: 0;
     *zoom: 1;
 }
@@ -510,6 +517,7 @@ figcaption {
     font-size: 0.875rem;
     font-style:italic;
 }
+
 ::-webkit-scrollbar {
     width: 4px;
     height: 6px;
@@ -1068,3 +1076,31 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+div.about {
+  float: left;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+  width: 30rem;
+  height: 30rem;
+  text-align: center;
+}
+
+div.cf:after {
+    content: "";
+    clear: both;
+    max-width: 56.25rem;
+}
+
+.about {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  @media only screen and (min-width: 450px) {
+    .about{
+      height: auto;
+      width: auto;
+      max-width: 425px;}
+  }
+}
