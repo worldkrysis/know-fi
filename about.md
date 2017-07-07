@@ -35,4 +35,56 @@ Rather than describing songs as having *[warm synth tones](https://youtu.be/ZGMA
 
 Krystian (based out of Boston, MA) has launched this project to learn more about the music he loves, as well as practice building a website. Check out [this site's GitHub repository](https://github.com/worldkrysis/know-fi). Browse Krystian's [recently played from his laptop](https://www.last.fm/user/worldkrysis).
 
+
+<br> <br> <br>
+
+### Mortal Sins Committed
+#### *Artists/Albums I've Never Listened To/Not Listened Enough To:*
+
+  * Animal Collective (but I like Panda Bear way too much)
+  * Beach Boys material that isn't *Pet Sounds*
+  * Bjork
+  * Captain Beefheart
+  * Can
+  * Clark
+  * Death Grips
+  * The Doors
+  * John Lennon and the Plastic Ono Band
+  * The Kinks (outside of Village Green Preservation Society)
+  * Makaveli
+  * Mos Def
+  * MF Doom
+  * N.W.A. (but love Dre)
+  * Pink Floyd (*Ummagumma, A Saucerful of Secrets, Zabriskie Point, etc.*)
+  * Plaid
+  * Portishead
+  * Prince
+  * Randy Newman
+  * Ryuichi Sakamoto
+  * Shabazz Palaces
+  * Stereolab
+  * Sonic Youth
+  * Wire
+
+
+#### *Guilty Pleasures*
+  * Drake
+
+#### *Guilty Pleasures Pt. 2*
+  * Cher (DO YOU BELIEVE IN LIFE AFTER LOVE)
+  * Enya (secretly I am a post-menopausal woman looking for her youth)
+  * Kisses
+  * Little Brother
+  * Memory Tapes
+  * Messer Chups
+  * Peaking Lights' *936*
+  * Pernice Brothers
+  * I.N.I.'s *Center of Attention*
+  * Porches
+  * Ramriddlz
+  * Sally Shapiro
+  * Sesame Street's (Quincy Jones') "Pinball Number Count"
+  * Usher
+  * 9th Wonder's *The Wonder Years*
+
 **know-fi** currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}.
