@@ -451,7 +451,7 @@ nav.pagination {
 figure {
     display: block
     margin: 0;
-    *zoom: 1;
+    zoom: 1;
 }
 
 figure:before,figure:after {
@@ -1085,12 +1085,6 @@ div.about {
   width: 30rem;
   height: 30rem;
   text-align: center;
-}
-
-div.cf:after {
-    content: "";
-    clear: both;
-    max-width: 56.25rem;
 }
 
 .about {
