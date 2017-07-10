@@ -91,6 +91,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       position: relative;
 	    top: 0;
 	    padding-left: 2.5rem;
+      padding-right: 2.5rem;
       padding-top: 5rem;
       max-width: 1000px;
       max-height: 100%;
@@ -109,9 +110,11 @@ html, body, .notepad-post-container, .notepad-post-header {
     @media only screen and (max-width: 800px) {
       .post-template .bg-img {
         text-align:center;
+        margin: auto;
       }
       .post-template .bg-img img {
         padding-left: 0;
+        padding-right: 0;
       }
     }
 
@@ -162,6 +165,20 @@ html, body, .notepad-post-container, .notepad-post-header {
         }
       }
 
+      @media only screen and (max-width: 1920px) {
+        .post-template .notepad-post-title h1 {
+          font-size: 5rem;
+        }
+        .post-template .notepad-post-title {
+          top: 55%;
+          width: 45%;
+        }
+        .post-template .notepad-post-title p {
+          font-size: 2rem;
+          margin-right: 10rem;
+        }
+      }
+
       @media only screen and (max-width: 800px) {
         .post-template .notepad-post-title {
           text-align: center;
@@ -203,7 +220,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     margin:.5rem;
     position: fixed;
     bottom: .5rem;
-    left: 50%;
+    left: 47.5%;
     z-index: 5000;
     display: block;
     padding: 0;
@@ -219,14 +236,14 @@ html, body, .notepad-post-container, .notepad-post-header {
   @media only screen and (max-width: 800px) {
     .post-template button.trigger {
       margin: 0;
-      left: 48.5%;
+      left: 50%;
       }
     }
 
   @media only screen and (max-width: 425px) {
     .post-template button.trigger {
       margin: 0;
-      left: 47%;
+      left: 50%;
     }
   }
 
@@ -245,6 +262,10 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template button.trigger.background--dark::before, .post-template button.trigger.background--dark span::before {
       color: black;
       /* background-color: black; */
+    }
+
+    @media only screen and (max-width: 800px) {
+
     }
 
   /* attempted button bounce ---  .post-template button.trigger.background--dark::before:hover, .post-template button.trigger.background--dark span::before:hover {
