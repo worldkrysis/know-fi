@@ -13,10 +13,6 @@ body {
   height: auto;
   min-height: 100%;
   line-height: 1; }
-.about {
-  height: 2rem;
-  font-style: italic;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
@@ -1076,25 +1072,3 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
-
-div.about {
-  float: left;
-  margin-left: auto;
-  padding-right: 2rem;
-  padding-bottom: 5rem;
-  width: 30rem;
-  height: 30rem;
-  text-align: center;
-}
-
-.about {
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  @media only screen and (min-width: 450px) {
-    .about{
-      height: auto;
-      width: auto;
-      max-width: 425px;}
-  }
-}

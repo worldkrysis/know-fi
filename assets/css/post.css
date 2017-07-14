@@ -631,19 +631,38 @@ html, body, .notepad-post-container, .notepad-post-header {
 /* Page conent */
 .notepad-page-content {
   margin: 0 auto;
-  padding: 0 0 5rem; }
+  padding: 0 0 5rem;
+  display: inline;
+}
   .notepad-page-content > div:not(.notepad-page-title) {
     margin: 0 auto;
     padding-left: 1.875rem;
     padding-right: 1.875rem; }
-    .notepad-page-content > div:not(.notepad-page-title) a, .notepad-page-content > div:not(.notepad-page-title) code {
+    .notepad-page-content > div:not(.notepad-page-title) a,
+    .notepad-page-content > div:not(.notepad-page-title) code {
       color: #9d4d62; }
-    .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol {
+    .notepad-page-content > div:not(.notepad-page-title) ul,
+    .notepad-page-content > div:not(.notepad-page-title) ol {
       padding-left: 1.25rem;
       font-size: 1.125rem; }
-    .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6 {
+    .notepad-page-content > div:not(.notepad-page-title) h1,
+    .notepad-page-content > div:not(.notepad-page-title) h2,
+    .notepad-page-content > div:not(.notepad-page-title) h3,
+    .notepad-page-content > div:not(.notepad-page-title) h4,
+    .notepad-page-content > div:not(.notepad-page-title) h5,
+    .notepad-page-content > div:not(.notepad-page-title) h6 {
       font-weight: bold; }
-    .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6, .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol, .notepad-page-content > div:not(.notepad-page-title) blockquote, .notepad-page-content > div:not(.notepad-page-title) pre, .notepad-page-content > div:not(.notepad-page-title) hr {
+    .notepad-page-content > div:not(.notepad-page-title) h1,
+    .notepad-page-content > div:not(.notepad-page-title) h2,
+    .notepad-page-content > div:not(.notepad-page-title) h3,
+    .notepad-page-content > div:not(.notepad-page-title) h4,
+    .notepad-page-content > div:not(.notepad-page-title) h5,
+    .notepad-page-content > div:not(.notepad-page-title) h6,
+    .notepad-page-content > div:not(.notepad-page-title) ul,
+    .notepad-page-content > div:not(.notepad-page-title) ol,
+    .notepad-page-content > div:not(.notepad-page-title) blockquote,
+    .notepad-page-content > div:not(.notepad-page-title) pre,
+    .notepad-page-content > div:not(.notepad-page-title) hr {
       max-width: 56.25rem;
       margin-left: auto;
       margin-right: auto; }
@@ -696,6 +715,34 @@ html, body, .notepad-post-container, .notepad-post-header {
     .page-template .row {
       margin-left: auto;
       margin-right: auto; } }
+
+div.about {
+  float: left;
+  padding-right: 0;
+  padding-bottom: 0;
+  width: 50%;
+  text-align: center;
+  margin: 0;
+}
+
+p.about {
+  height: 2em;
+  font-style: italic;
+}
+
+img.about {
+  height: auto;
+  width: auto;
+  max-width: 75%;
+  margin: 0;
+}
+
+/* @media only screen and (min-width: 450px) {
+  img.about{
+    height: auto;
+    width: auto;
+    max-width: 425px;}
+} */
 
 ::selection {
   background: #6a3442;
