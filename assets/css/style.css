@@ -41,7 +41,7 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
-  margin-right: 0.9375rem;
+  /* margin-right: 0.9375rem; */
   float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -51,8 +51,8 @@ main, .notepad-share-icons, .notepad-disqus {
     display: inline-block;
     outline: none;
     color: black;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem; }
+    /* padding-top: 1.25rem;
+  padding-bottom: 1.25rem;*/ }
     .notepad-blog-menu .notepad-mobile-menu a:hover {
       color: black; }
   .notepad-blog-menu ul {
