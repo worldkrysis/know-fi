@@ -41,7 +41,7 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
-  /* margin-right: 0.9375rem; */
+  margin-right: 0.9375rem; /* this is to the right of "About", maybe need to change to padding? */
   float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
