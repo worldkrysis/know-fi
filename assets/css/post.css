@@ -60,28 +60,38 @@ html, body, .notepad-post-container, .notepad-post-header {
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 9999; }
+    /* z-index: 9999; */
+      margin-bottom: 1px;
+   }
       .post-template .notepad-post-header .notepad-post-menu-header .notepad-blog-logo {
         display: inline-block;
         max-height: 5rem; }
         .post-template .notepad-post-header .notepad-post-menu-header .notepad-blog-logo img {
           max-height: 5rem; }
 
-  .post-template .container {
-    position: relative;
-    display: inline-block;
+  .post-template .notepad-post-header .notepad-post-graveyard {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width:100%;
+    min-height: 100%;
+    height: auto !important /*min-height hack*/
+    height: 100%;
+  }
+
+  .post-template .notepad-post-image div {
+    float: left;
     width: 50%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
   }
 
   .post-template .bg-img {
-    position: absolute;
-	  top: 0;
+    position: relative;
+	  top: 3.5rem;
 	  left: 0;
 	  right: 0;
-	  bottom: 0;
-    text-align: left;
-    display: table-cell;
-    vertical-align: middle;
+	  bottom: 3.5rem;
     margin-left: auto;
     margin-right: auto;
     -webkit-backface-visibility: hidden;
@@ -90,20 +100,18 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .bg-img img {
       position: relative;
 	    top: 0;
-	    padding-left: 2.5rem;
+      /* padding-bottom: 2.5rem;
+      padding-left: 2.5rem;
       padding-right: 2.5rem;
-      padding-top: 5rem;
-      max-width: 1000px;
-      max-height: 100%;
+      padding-top: 2.5rem; */
+      width: 75%;
+      height: auto;
     }
 
     @media only screen and (max-width: 425px) {
       .post-template .bg-img img {
         max-width: 100%;
         padding-top: 7.5rem;
-      }
-      .post-template .bg-img {
-        text-align: center;
       }
     }
 
@@ -119,14 +127,15 @@ html, body, .notepad-post-container, .notepad-post-header {
     }
 
   .post-template .notepad-post-title {
+    float: right;
     z-index: 1000;
     margin: 0 auto;
     padding-right: 5rem;
     text-align: left;
     position: relative;
-    width: 45%;
+    width: 50%;
     top: 65%;
-    left: 52.5%;
+    left: 30%;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
     .post-template .notepad-post-title a {
@@ -431,7 +440,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       	z-index: 1500;
       }
 
-      .post-template .intro-effect-push > .notepad-post-title {
+      .post-template .intro-effect-push > .notepad-post-title /*plz explain */ {
       	position: relative;
       	top: auto;
       	left: auto;

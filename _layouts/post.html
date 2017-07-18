@@ -45,11 +45,17 @@
                     {% endfor %}
                 </ul>
               </div>
+              <div class="clearfix"></div>
             </div>
-            <div> <!--- this is where image and title go --->
-              <!--- <div float=left and then div float=right, with width=50% each time
+            <div class="notepad-post-graveyard">
+              <div class="notepad-post-image"> <!--- this is where image goes --->
+                <div class="bg-img">
+                    <img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />
+                </div>
+              </div>
             </div>
           </header>
+
         </main>
 {% include scripts.html %}
 

@@ -50,11 +50,11 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
-    color: black;
+    color: white;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem; }
     .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: black; }
+      color: white; }
   .notepad-blog-menu ul {
     background: black;
     position: absolute;
@@ -97,7 +97,8 @@ main, .notepad-share-icons, .notepad-disqus {
       -ms-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
       -o-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0);
+     }
   @media only screen and (min-width: 40.063em) {
     .notepad-blog-menu {
       padding-top: 1.75rem;
