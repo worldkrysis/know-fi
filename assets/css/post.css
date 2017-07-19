@@ -60,7 +60,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       position: absolute;
       top: 0;
       left: 0;
-    /* z-index: 9999; */
+      z-index: 9999;
       margin-bottom: 1px;
    }
       .post-template .notepad-post-header .notepad-post-menu-header .notepad-blog-logo {
@@ -74,8 +74,9 @@ html, body, .notepad-post-container, .notepad-post-header {
     margin-bottom: 2rem;
     width:100%;
     min-height: 100%;
-    height: auto !important /*min-height hack*/
+    height: auto !important; /*min-height hack*/
     height: 100%;
+    overflow: hidden;
   }
 
   .post-template .notepad-post-image div {
@@ -84,6 +85,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     height: auto;
     text-align: center;
     vertical-align: middle;
+    display: inline-block;
   }
 
   .post-template .bg-img {
@@ -108,36 +110,57 @@ html, body, .notepad-post-container, .notepad-post-header {
       height: auto;
     }
 
-    @media only screen and (max-width: 425px) {
-      .post-template .bg-img img {
-        max-width: 100%;
-        padding-top: 7.5rem;
-      }
+    .post-template .bg-img-small {
+      position: relative;
+  	  top: 1.5rem;
+  	  left: 0;
+  	  right: 0;
+  	  bottom: 1.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
     }
 
-    @media only screen and (max-width: 800px) {
-      .post-template .bg-img {
-        text-align:center;
-        margin: auto;
-      }
-      .post-template .bg-img img {
-        padding-left: 0;
-        padding-right: 0;
-      }
+    .post-template .bg-img-small img {
+      position: relative;
+	    top: 0;
+      /* padding-bottom: 2.5rem;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 2.5rem; */
+      width: 100%;
+      height: auto;
     }
+
+  .post-template .notepad-post-image-small {
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    position: absolute;
+  }
+
+  .post-template .notepad-post-title-placeholder {
+    float: right;
+    width: 50%;
+    text-align: left;
+    /* background: red; */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
 
   .post-template .notepad-post-title {
-    float: right;
+    vertical-align: middle;
     z-index: 1000;
-    margin: 0 auto;
+    margin-top: 5rem;
+    padding-top: 7rem;
     padding-right: 5rem;
-    text-align: left;
+    padding-left: 1rem;
     position: relative;
-    width: 50%;
-    top: 65%;
-    left: 30%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%); }
+    width: 100%;
+   }
     .post-template .notepad-post-title a {
       color: black; }
       .post-template .notepad-post-title a:hover {
@@ -146,9 +169,20 @@ html, body, .notepad-post-container, .notepad-post-header {
       color: black;
       font-weight: 800;
       font-size: 2.5rem;
-      margin: 0 auto;
+      /* margin: 0 auto; */
       line-height: 1.1;
       text-transform: uppercase; }
+
+      .post-template .notepad-post-title-small {
+        top: 65%;
+        margin-top: 0;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        position: absolute;
+        background: white;
+        opacity: .8;
+        text-align: center;
+      }
 
       /* OG author decisions, can't figure out the differences but they work ok for me*/
       @media only screen and (min-width: 40.063em) {
@@ -161,18 +195,7 @@ html, body, .notepad-post-container, .notepad-post-header {
         .post-template .notepad-post-title h1 {
           font-size: 5.3125rem; } }
 
-      /* Krys text placement decisions */
-      @media only screen and (max-width: 2560px) and (min-height: 1000px) {
-        .post-template .notepad-post-title h1 {
-          font-size: 10rem;
-        }
-        .post-template .notepad-post-title {
-          width: 60%;
-        }
-        .post-template .notepad-post-title p {
-          font-size: 3rem;
-        }
-      }
+      /*
 
       @media only screen and (max-width: 1920px) {
         .post-template .notepad-post-title h1 {
@@ -186,7 +209,7 @@ html, body, .notepad-post-container, .notepad-post-header {
           font-size: 2rem;
           margin-right: 10rem;
         }
-      }
+      } */
 
       @media only screen and (max-width: 800px) {
         .post-template .notepad-post-title {
@@ -205,8 +228,6 @@ html, body, .notepad-post-container, .notepad-post-header {
           text-align: center;
           left: 0;
           width: 100%;
-          -webkit-transform: translateX(0%) translateY(0%);
-          transform: translateX(0%) translateY(0%);
           padding-left:5rem;
           background: rgba(255, 255, 255, 0.85) }
         .post-template .notepad-post-title h1 {
@@ -220,9 +241,12 @@ html, body, .notepad-post-container, .notepad-post-header {
   /* I'm lazy so rather than removing the class in "background-check.js" I just set the parameters for both settings to be equal. */
     .post-template .notepad-post-title.background--light h1 {
       color: black;
-      background-color: white;}
+      background: white;
+      }
     .post-template .notepad-post-title.background--dark h1 {
-      color: black; }
+      color: black;
+      background: white;
+    }
 
 /* if i wanted to add background color change background. if i want same image, bigger, and below, copy remove trigger, and change color. also add to post.html */
   .post-template button.trigger {
