@@ -79,6 +79,13 @@ html, body, .notepad-post-container, .notepad-post-header {
     overflow: hidden;
   }
 
+        .post-template .notepad-post-header .notepad-post-graveyard-small {
+          margin-top: 5rem;
+          margin-bottom: 5rem;
+          width:100%;
+          height:auto;
+        }
+
   .post-template .notepad-post-image div {
     float: left;
     width: 50%;
@@ -106,16 +113,16 @@ html, body, .notepad-post-container, .notepad-post-header {
       padding-left: 2.5rem;
       padding-right: 2.5rem;
       padding-top: 2.5rem; */
-      width: 75%;
+      width: 80%;
       height: auto;
     }
 
     .post-template .bg-img-small {
       position: relative;
-  	  top: 1.5rem;
+  	  top: 2.5rem;
   	  left: 0;
   	  right: 0;
-  	  bottom: 1.5rem;
+      padding-bottom:4rem;
       margin-left: auto;
       margin-right: auto;
       -webkit-backface-visibility: hidden;
@@ -129,14 +136,14 @@ html, body, .notepad-post-container, .notepad-post-header {
       padding-left: 2.5rem;
       padding-right: 2.5rem;
       padding-top: 2.5rem; */
-      width: 100%;
+      min-width: 100%;
       height: auto;
     }
 
   .post-template .notepad-post-image-small {
+    width: auto;
     height: auto;
     text-align: center;
-    vertical-align: middle;
     display: flex;
     position: absolute;
   }
@@ -248,44 +255,43 @@ html, body, .notepad-post-container, .notepad-post-header {
       background: white;
     }
 
+    .post-template div.centering1 {
+      position: absolute;
+      text-align: center;
+      bottom: 4rem;
+      width: 100%;
+    }
+
+    .post-template div.centering2 {
+      position: relative;
+      text-align: center;
+      width: 100%;
+    }
+
+    .post-template div.centering3 {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+
+    }
+
+
 /* if i wanted to add background color change background. if i want same image, bigger, and below, copy remove trigger, and change color. also add to post.html */
   .post-template button.trigger {
-    margin:.5rem;
-    position: fixed;
-    bottom: .5rem;
-    left: 47.5%;
+    position: absolute;
     z-index: 5000;
-    display: block;
+    display: inline;
     padding: 0;
     width: 1em;
     height: 1em;
     border: none;
-    background: transparent;
+    background: white;
     color: transparent;
     font-size: 2em;
     cursor: pointer;
+    text-align: center;
   }
-
-  @media only screen and (max-width: 800px) {
-    .post-template button.trigger {
-      margin: 0;
-      left: 50%;
-      }
-    }
-
-  @media only screen and (max-width: 425px) {
-    .post-template button.trigger {
-      margin: 0;
-      left: 50%;
-    }
-  }
-
-  @media only screen and (max-width: 320px) {
-    .post-template button.trigger {
-      margin: 0;
-      left: 46.5%;
-      }
-    }
 
     /* I'm lazy so rather than removing the class in "background-check.js" I just set the parameters for both settings to be equal. */
     .post-template button.trigger.background--light::before, .post-template button.trigger.background--light span::before {
@@ -296,14 +302,6 @@ html, body, .notepad-post-container, .notepad-post-header {
       color: black;
       /* background-color: black; */
     }
-
-    @media only screen and (max-width: 800px) {
-
-    }
-
-  /* attempted button bounce ---  .post-template button.trigger.background--dark::before:hover, .post-template button.trigger.background--dark span::before:hover {
-      bottom: 3.5rem;
-    } */
 
 
   .post-template .notepad-post-container:not(.notrans) button.trigger {
@@ -316,23 +314,28 @@ html, body, .notepad-post-container, .notepad-post-header {
     transition-delay: 0s; }
   .post-template button.trigger::before {
     position: absolute;
-    bottom: 100%;
-    left: -200%;
+    /* bottom: 100%; */
     padding: 0.8em;
     width: 500%;
+    height: 200%;
+    top:-50%;
+    left: -4rem;
     color: black;
     content: attr(data-info);
     font-size: 1.125rem;
     text-transform: uppercase;
-    -webkit-backface-visibility: hidden; }
+    -webkit-backface-visibility: hidden;
+    text-align: center; }
   .post-template button.trigger:focus {
-    outline: none; }
+    outline: none;
+    text-align: center;
+  }
   .post-template button.trigger span {
-    position: relative;
-    display: block;
+    display: flex;
     overflow: hidden;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    text-align: center; }
   .post-template button.trigger span::before {
     position: absolute;
     top: 0;
@@ -349,7 +352,9 @@ html, body, .notepad-post-container, .notepad-post-header {
     line-height: 1;
     speak: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
 
     @media only screen and (max-width: 2560px) and (min-height: 1000px) {
       .post-template button.trigger.background--light::before, .post-template button.trigger.background--light span::before {
@@ -366,10 +371,6 @@ html, body, .notepad-post-container, .notepad-post-header {
       .post-template button.trigger span::before {
         color: black;
       }
-    }
-
-    @media only screen and (max-width: 1024px) {
-
     }
 
   .post-template .notepad-post-content {
@@ -440,7 +441,8 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template .notepad-post-title, .post-template .notepad-post-content {
       font-size: 50%; }
     .post-template button.trigger::before {
-      display: none; } }
+      display: none;
+      text-align: center; } }
 
       .post-template .intro-effect-push:not(.notrans) .notepad-post-header,
       .post-template .intro-effect-push:not(.notrans) > .notepad-post-title,
@@ -474,7 +476,7 @@ html, body, .notepad-post-container, .notepad-post-header {
 
       .post-template .intro-effect-push.modify .notepad-post-content > div {
       	margin-top: 50px;
-      	color: #b2b2c0;
+      	color: #3f3f3f;
       }
 
       .post-template .intro-effect-push > .notepad-post-title,

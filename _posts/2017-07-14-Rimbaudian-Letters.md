@@ -3,7 +3,7 @@ layout: post
 title: Rimbaudian - Letters
 description: "House music that captures feelings of your first crush."
 category: Reviews
-tags: [House, Deep House Lo-Fi, Electronic]
+tags: [House, Deep House, Lo-Fi, Electronic]
 imagefeature: rimbaudian-letters.jpg
 comments: false
 share: true

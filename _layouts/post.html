@@ -47,8 +47,8 @@
               </div>
               <div class="clearfix"></div>
             </div>
-            <div class="notepad-post-graveyard">
-              <div class="show-for-medium-up">
+            <div class="show-for-medium-up">
+                    <div class="notepad-post-graveyard">
                       <div class="notepad-post-image">
                         <div class="bg-img">
                             <img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />
@@ -60,8 +60,10 @@
                           <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
                         </div>
                       </div>
+                    </div>
               </div>
               <div class="show-for-small"> <!--- mobile version of header --->
+                    <div class="notepad-post-graveyard-small">
                       <div class="notepad-post-image-small">
                         <div class="bg-img-small">
                             <img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-art" />
@@ -71,9 +73,43 @@
                         <h1>{{ page.title }}</h1>
                         <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} <strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
                       </div>
+                    </div>
               </div>
+
+              <div class="centering1">
+                <div class="centering2">
+                  <div class"centering3">
+                    <button class="trigger"><span>Trigger</span></button>
+                  </div>
+                </div>
             </div>
           </header>
+
+          <article class="notepad-post-content post">
+                      <div>
+                        <h1>{{ page.title }}</h1>
+                        {{ content }}
+                      </div>
+                    </article>
+                    <div class="cf"></div>
+                  {% if site.share %}{% include share.html %}{% endif %}
+                    <div class="cf"></div>
+
+                    {% include signoff.html %}
+
+        <div class="cf"></div>
+        {% if site.disqus_shortname and page.comments == true %}
+          <section class="notepad-disqus row">
+            <div class="small-12 columns">
+                <h1 class="notepad-comments-header">Comments</h1>
+                <div id="disqus_thread"></div>
+                {% include disqus_comments.html %}
+            </div>
+          </section>
+        {% endif %}
+        <div class="cf"></div>
+
+        {% include footer.html %}
 
         </main>
 {% include scripts.html %}
