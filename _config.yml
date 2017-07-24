@@ -14,6 +14,12 @@ owner:
   twitter:        worldkrysis
   github:         worldkrysis
 
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-103074009-1
+google_verify: FK07ovuTAqETaDty4Tj_skQ9niRLvD0hBQj7uCJpxKY
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
   # Links to include in footer navigation
   # For external links add external: true
 links:
