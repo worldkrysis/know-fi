@@ -1,8 +1,7 @@
-##know-fi readme
-
+# README
 Part-CS learning project (Ruby, CSS, JS, HTML), part-writing project for my biggest passion: music. All comments/suggestions are appreciated, whether on coding or on writing.
 
-#Known bugs:
+## Known bugs:
 - unnecessary spaces in between tags on posts
 - trigger for header scroll does not work with iOS devices, have to manually click button to activate
 
@@ -10,7 +9,7 @@ Part-CS learning project (Ruby, CSS, JS, HTML), part-writing project for my bigg
 Cheers,
 Krystian
 
-===================
+----
 
 Blog heavily borrows from Hossain Mohd. Faysal's Notepad jekyll-theme. You can find the source at his [Github](https://github.com/hmfaysal/Notepad). Description from his readme as follows:
 
