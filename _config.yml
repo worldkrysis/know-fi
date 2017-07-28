@@ -5,7 +5,7 @@ disqus_shortname:   know-fi-com
 share:              true
 dropcap:            true
 
-url:                http://know-fi.com
+url:                /know-fi
 
 owner:
   name:           Krystian Zawodniak
