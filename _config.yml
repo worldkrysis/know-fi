@@ -1,11 +1,11 @@
-title:            know-fi
-description:      "Intensive music blog"
-logo:             logo.png
-disqus_shortname: worldkrysis
-share:            true
-dropcap:			true
+title:              know-fi
+description:        "Intensive music blog"
+logo:               logo.png
+disqus_shortname:   know-fi-com
+share:              true
+dropcap:            true
 
-url:        	  /know-fi
+url:                http://know-fi.com
 
 owner:
   name:           Krystian Zawodniak
@@ -20,7 +20,7 @@ google_verify: FK07ovuTAqETaDty4Tj_skQ9niRLvD0hBQj7uCJpxKY
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-  # Links to include in footer navigation
+  # Links to include in footer (header?) navigation
   # For external links add external: true
 links:
   - title: Home
