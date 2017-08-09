@@ -1,20 +1,67 @@
 ---
 layout: post
 title: Rimbaudian - Letters
-description: "House music that captures feelings of your first crush."
-category: Reviews
-tags: [House, Deep House, Lo-Fi, Electronic]
+description: "Long Read: Rimbaudian's Letters."
+category: Long Read
+tags:
+  - House
+  - Garage House
+  - Lo-Fi House
+  - Deep House
+
 imagefeature: rimbaudian-letters.jpg
-comments: true
+comments: false
 share: true
 ---
 
-To some, house music is a sophisticated art form that involves the appreciation of the subtle. Mastery of this art is about knowing sublime production, that resonates with someone's soul for picking the right tone, the right repetitive melody. As the production builds, a swirl of ecstasy comparable to a sexual explosion takes place inside a listeners' ear. But rather than your heart beat speeding up, having an orgasm, and chain smoking to keep the endorphins floating around for long enough, house keeps the 4 on the floor to keep your heart beating as long as you don't go deaf, or run out of batteries on your cellphone.
+* **Released:** 03 February 2017
+* **Label:** Ten Thousand Yen (Swansea, UK)
+* **Novelty:** There are other contemporary artists doing something similar, each one has its flavor, none are “unique.”
+* **Longevity:** 2 - 3 months; depends on the quality of similar artists/ability to search for new ones.
+* **When to Listen:** By yourself - on a long drive, or late at night.
+* **Moods:** Introspective
+* **Similar Listening:** Grant’s *Cranks*, Mall Grab’s *Sun Ra EP*, DJ Seinfeld’s “U”
+* **Reaching:** Fort Romeau’s *Kingdoms*, DJ Koze’s *Amygdala*
+* **Stand-out Tracks:** “Drop It On Em” / “I Would Do Everything I Did Again and Again”
+* **What to Skip:** None
+* **Accessibility:** Already into disco/soul-sampled house, somewhat of a social outcast.
+* **Where to get:** <a href="https://tenthousandyen.bandcamp.com/album/rimbaudian-letters">Bandcamp</a>
 
-Then there's the other viewpoint. House is a rudimentary art form that reveals the naivety of its creator and its inability to escape the reMost of the song is revealed within these first 30 seconds, and then is repeated until drug addicts listening enter a trance and forget about their substance abuse habits. How many bass drum hits can you hear until your ears bleed, and you develop a category 5 migraine?
 
-Rimbaudian composes adolescent depictions of love, gratitude, and ego, transforming them into what may appear to some as rudimentary house. With more established EDM names looking for that grandiose scale of a lead synthesizer, the perfect bass drum compression and scooped mixed to deliver maximum "tick tick, followed by that bump." Rimbaudian looks back into a time when not only were his feelings frivolous and infantile (with titles like "I Said Goodbye To Dreams Of You At The Shore", it seems he is taking a page after [In Love With a Ghost](https://inlovewithaghost.bandcamp.com/album/discography-2015)), and his mixes reflect the same. Opening track tries to be serious and mature, with a cleaner production and more standard track pattern, but they fail by revealing too much too quickly. You instantly know his hand within 30-seconds of the song. On another record, this would be a fault, but here it is his message. Like "Letters" (borrowed from the title of the album) to a current/former lover, he tried to steady his hand with his "best track" (or his best opening paragraph in this case.) but it's rushed, he can't control his emotions just yet, making the headstrong title track looking like as fake as the "real man" album cover.
 
-Then the feels start pouring out. Drop it on 'em is a sincere attempt at producing "emotional house." He tries to stunt, but the mix is too washed, the hazy noise of the mids filling the highs and lows with waves of his overflowing feelings.
 
-Next, "I Would Do Everything I Did Again And Again" is his confession; He no longer can hold back.
+There is an element of Rimbaudian’s (born Armand Jakobsson) record that brings you back to Grant’s opening sample on Cranks (fellow Lobster Theremin artist under his DJ Seinfeld alias):
+
+>“Dance music is not just dance music anymore - it’s for the head now, you can see that in the sort of good creative albums now, they’ve got a lot more thought about them than usual, ya know? Let’s go and dance and have some fun, ya know? It’s good to do that - but it’s a level of generation, of my generation, obviously because I listened to music a bit little deeper, not as thin as usual… [it was] music of the mind…”
+
+      From “Mainstream Belief”
+
+
+This is a great way to contextualize *Cranks*, but to put <u>all</u> house music into this dichotomy would be naive; not all non-intellectual music is crude, and not all “fun” music has to be devoid of thought. For context, this is a world where David Guetta <del>and his army of producers</del> create scientifically-perfected sounds that make his dance music feel like an ongoing laboratory experiment of how to get the essential “house sound” out of every speaker (from cell phone to car stereo). But “Mainstream Belief” fails to establish that in many ways dance music has lost its raw, sincere, emotional edge; music has to make you feel, but feelings are not well composed, or cleanly compressed. Sure, Guetta still makes others under-35 remember and feel the Snapchat Experience<sup>TM</sup> - whether it be at the local bar/club crossover, or Ultra Music Festival - but his songs hardly tell a story. This brings us to the sincerity of Rimbaudian’s new release. The Sweden-via-Barcelona producer warps us back to a time when house wasn’t only enjoyed as a larger political/social commentary, or the musical scene appropriate for your vodka bombs - this is honest house music; it isn’t for all and Rimbaudian's niche won't instantly woo those who enjoy the concept on paper.
+
+With the revival of tape/analog-influenced dance-music production, Rimbaudian flirts with the style throughout this record, but never fully embraces it (the way Mall Grab or <a href="https://www.youtube.com/watch?v=g6eu1Wb8CVE">DJ Seinfeld</a> does). With titles like “I Said Goodbye To Dreams Of You At The Shore”, it seems he is taking a page out of <a href="https://inlovewithaghost.bandcamp.com/album/discography-2015">In the Ghost Of’s</a> *wear-your-song-title-on-your-sleeve* book; make your music like an open manual about yourself, even if it’s not that much more revealing than a title like “<a href="https://www.youtube.com/watch?v=_AWIqXzvX-U">Rhubarb</a>". It is also worth mentioning Jakobsson’s project namesake, drawing from the french poet Arthur Rimbaud. (His previous project, *Illuminations EP*, had borrowed the name of Rimbaud’s 1886 work <i><a href="https://en.wikipedia.org/wiki/Illuminations_(poetry_collection)">Les Illuminations</a></i>.) It is however, definitely a stretch to associate the thematic content of the revered proto-surrealist with the content of Jakobsson’s work, other than at the surface level. (With the first track from *Illuminations EP*, using the phrase “beat u” as though the narrator is a physical subwoofer pumping the kick drum into your face, it’s hard to imagine there are many similarities to Rimbaud. However, several liberal arts students may disagree.)
+
+There is a value in viewing *Letters* as a series of paragraphs in a letter however (specifically to an ex-lover). "She Taught Me How To Love" is the most well-produced of the 4-track EP; tempered and mature, with a mastery in production. It’s clean, precise use of a low-pass filter to surge the synths back and forth, in-and-out of the presence of the track, show that Rimbaudian can be composed. Starting your record/letter off with a serious track/paragraph makes sense; you rewrite the same opening so many times until it feels robotic. On another record, this would be a fault, but here it is part of his theme. He tried to steady his hand with his "best track" (or his best opening paragraph in this case) but it feels unnatural, he can't control his emotions just yet, making the headstrong title look as fake as the "real man" album cover.
+
+Then the *feels* start pouring out. “Drop It On Em” is as emotional as “emotional house” can be. As <a href="https://www.youtube.com/watch?v=6CzCg_lJa7o">Janet Jackson’s vocals swirl</a>, the mix awash with hazy mids, he replaces the crisp highs and lows with his overflowing feelings in the middle. If Rimbaud’s *A Season in Hell* is a <a href="https://en.wikipedia.org/wiki/A_Season_in_Hell#Interpretation">dialogue between a wide-eyed child and a pessimistic older man</a>, then “Drop It On Em” is the rejected older man. The building intro goes on just long enough to make you feel antsy, and quickly all the snippets of “conversation” (Janet Jackson pitch-bent vocals and a man saying affirmative responses “Uh-huh, ok, ah”), build a dialogue. Janet Jackson’s fuller vocal samples cut the pleasantries:
+
+>“I'm feelin high cuz I'm outta control tonight /
+(feelin high don't wanna stop) / …
+I'll make him mine in time / …
+He won't wanna stop”
+
+It’s as though feel as though the writer is reminding what the lover said on the first night they met: it’s sincere, even touching, but ultimately boyish in its ability to not recognize that the song is about Janet Jackson making him her’s, even if the emotion is ultimately not reciprocated. The faster tempo, the pulsing kick-drum recall dance floor romances, while the production quality add a layer of opacity, obscuring what actually happened during the encounter until it’s a bunch of misinterpreted promises and warm feelings. This is as close to a dance floor track that Rimbaudian comes, and it’s ok that it doesn’t fulfill that.
+
+His confession, "I Would Do Everything I Did Again And Again" is where he can no longer hold back. Without even bothering with a build up, the song drops you in what feels like the middle of itself (minus the bass/sub-bass synth). With Aaliyah-like vocals (sample unconfirmed) and a gorgeous reverb-filled grand piano that tumbles over itself, the letter leaves the dance floor for a melancholy, desperate plea. By 4:00, everything has been stripped away until you are only left with the piano and the vocals, and then *again*, the song picks up where it left you a minute earlier.
+
+That leaves “I Said Goodbye To Dreams Of You At The Shore,” the weakest of the songs on the album. A pleasant, tropical-influenced closing track, this fails to make as strong a statement as the previous tracks. To some extent, this could be argued as the purpose of this song. If the author left the dream of their relationship, then it no longer colors their life. There is a screeching synth around 2:30 that briefly colors the mix, adding the meta-layer that pieces of their relationship will continue to pop-through, but in a minimal and not as noticeable. The <a href="http://www.whosampled.com/sample/486444/Rimbaudian-I-Said-Goodbye-to-Dreams-of-You-at-the-Shore-Big-Moses-Kenny-Bobien-Brighter-Days/">Brighter Days sample</a> that closes the track is tasteful, and redeems the lackluster middle. The warped whispers of “Oh love is on the way / Don’t you stray...” along with the wailing of Kenny Bobian truly feel as though even if you left your dream, you are still waiting on the shore for it to come back.
+
+To return back to “Mainstream Belief”, it closes with another quote, highlighting that dance music was one of the first music genres to become “faceless,” and therefore colorless and genderless. If Jakobsson’s multiple aliases and continuing references to Arthur Rimbaud sheds any light, its that true emotionally fulfilling music is not limited to one genre, nor one location, nor one name. There are few dance records that tell such a complete story without lyrics (the titles do help a lot in this process), and other artists should take note. With listed contributors including Scuba, Axel Boman, J Rocc, Catz ‘n Dogz, Joe Goddard, Bodhi, and Fred P among others, Rimbaudian/DJ Seinfeld has gathered traction within the industry. To say I’m not excited for future releases would be an understatement.
+
+
+
+Read Interviews with Armand Jakobsson:
+
+<a href="http://hardlife.london/interview-dj-seinfeld/">Interview with DJ Seinfeld on Hardlife</a>
+
+<a href="https://i-d.vice.com/en_gb/article/i-dj-rimbaudian">i-D</a>

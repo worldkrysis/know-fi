@@ -10,7 +10,7 @@ url:                /know-fi
 owner:
   name:           Krystian Zawodniak
   avatar:         avatar.jpg
-  email:          admin@know-fi.com
+  email:          krys@know-fi.com
   twitter:        know_fi
   github:         worldkrysis
 
@@ -108,18 +108,12 @@ prose:
           placeholder: "Choose categories"
           value: personal
           options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
+            - name: "Reviews"
+              value: reviews
+            - name: "Exposé"
+              value: expose
+            - name: "Opinion"
+              value: opinion
           alterable: true
       - name: "tags"
         field:
@@ -149,4 +143,4 @@ prose:
 
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "rakefile", "rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

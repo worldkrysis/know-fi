@@ -8,9 +8,9 @@
     var disqus_shortname = '{{ site.disqus_shortname }}';
 
     var disqus_config = function () {
-        this.page.url = '{{ site.url }}';
-        this.page.identifier = 'a unique identifier for each page where Disqus is present';
-        this.page.title = '{{}}';
+        this.page.url = '{{ post.url }}';
+        this.page.identifier = '{{ page.id }}';
+        this.page.title = '{{ post.title }}';
     };
 
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
