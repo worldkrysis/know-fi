@@ -3,18 +3,14 @@ layout: post
 title: Rimbaudian - Letters
 Headline: "this is where the byline goes???"
 description: "Delve deeper."
-category: Long Read
+category: long-read
 tags:
   - House
   - Garage House
   - Lo-Fi House
   - Deep House
 
-image:
-  feature: rimbaudian-letters.jpg
-  credit:
-  creditlink:
-
+imagefeature: rimbaudian-letters.jpg
 comments: true
 share: true
 modified: 2017-08-09

@@ -109,8 +109,10 @@ prose:
           placeholder: "Choose categories"
           value: personal
           options:
-            - name: "Reviews"
-              value: reviews
+            - name: "Long Read"
+              value: Long-Read
+            - name: "Briefing"
+              value: briefing
             - name: "Exposé"
               value: expose
             - name: "Opinion"

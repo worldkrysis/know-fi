@@ -6,17 +6,17 @@ def edit_config(name, value)
 end
 
   namespace :env do
-    desc 'Sets the configuration for development mode.'
+    desc 'Sets the configuration for local test mode.'
     task :test do
       edit_config 'url', 'http://localhost:4000'
     end
 
-    desc 'Sets the configuration for production mode.'
+    desc 'Sets the configuration for GitHub dev mode.'
     task :dev do
       edit_config 'url', '/know-fi'
     end
 
-    desc 'Sets the configuration for production mode.'
+    desc 'Sets the configuration for published production mode.'
     task :pro do
       edit_config 'url', 'http://know-fi.com'
     end
