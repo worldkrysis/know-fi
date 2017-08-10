@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /about/index.html
-title: About the Author
-tags: [about, krystian, zawodniak, authors]
-chart: true
+title: About know-fi
+description: "Delve deeper."
+modified: 2017-08-01
+tags: [About, Authors]
+chart: false
 ---
 {% assign total_words = 0 %}
 {% assign total_readtime = 0 %}

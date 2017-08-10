@@ -1,8 +1,9 @@
 title:              know-fi
-description:        "Intensive music blog"
+description:        "Delve deeper."
 logo:               logo.png
 disqus_shortname:   know-fi-com
 share:              true
+#dropcap is the big letter at beginning of story
 dropcap:            true
 
 url:                /know-fi
@@ -63,7 +64,7 @@ syntax_highlighter_opts:
     coderay_bold_every: 10
     coderay_css: class
 
-# this is how _config.yml understands your directory organization/naming structure. --> https://github.com/prose/prose/wiki/Prose-Configuration
+# this is how github understands _config.yml within their weird directory structure. --> https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
   rooturl: '_posts'
   siteurl: 'http://worldkrysis.github.io/know-fi/'
@@ -141,6 +142,6 @@ prose:
           label: "Comments"
           value: false
 
-
+#this is what builds into the site using jekyll build
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "rakefile", "rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

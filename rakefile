@@ -7,13 +7,18 @@ end
 
   namespace :env do
     desc 'Sets the configuration for development mode.'
-    task :dev do
+    task :test do
       edit_config 'url', 'http://localhost:4000'
     end
 
     desc 'Sets the configuration for production mode.'
-    task :pro do
+    task :dev do
       edit_config 'url', '/know-fi'
+    end
+
+    desc 'Sets the configuration for production mode.'
+    task :pro do
+      edit_config 'url', 'http://know-fi.com'
     end
   end
 

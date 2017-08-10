@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Rimbaudian - Letters
-description: "Long Read: Rimbaudian's Letters."
+Headline: "this is where the byline goes???"
+description: "Delve deeper."
 category: Long Read
 tags:
   - House
@@ -9,9 +10,14 @@ tags:
   - Lo-Fi House
   - Deep House
 
-imagefeature: rimbaudian-letters.jpg
-comments: false
+image:
+  feature: rimbaudian-letters.jpg
+  credit:
+  creditlink:
+
+comments: true
 share: true
+modified: 2017-08-09
 ---
 
 * **Released:** 03 February 2017
