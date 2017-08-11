@@ -101,9 +101,9 @@
 
                     {% include signoff.html %}
 
-      {% if jekyll.environment == "production" %} (
+      {% if jekyll.environment == "production" %}
           <div class="cf"></div>
-          {% if site.disqus_shortname and page.comments == true %} (
+          {% if site.disqus_shortname and page.comments == true %}
             <section class="notepad-disqus row">
               <div class="small-12 columns">
                   <h1 class="notepad-comments-header">Comments</h1>
@@ -111,7 +111,7 @@
                   {% include disqus_comments.html %}
               </div>
             </section>
-          ) {% endif %} )
+          {% endif %}
       {% endif %}
         <div class="cf"></div>
 

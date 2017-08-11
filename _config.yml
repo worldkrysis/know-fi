@@ -6,12 +6,13 @@ share:              true
 #dropcap is the big letter at beginning of story
 dropcap:            true
 
-url:                /know-fi
+url:                http://localhost:4000
 
 owner:
   name:           Krystian Zawodniak
-  avatar:         avatar.jpg
-  email:          krys@know-fi.com
+  avatar:         krys.jpg
+  email:          contact@know-fi.com
+  facebook:       knowfi
   twitter:        know_fi
   github:         worldkrysis
 

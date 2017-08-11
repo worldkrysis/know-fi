@@ -15,6 +15,7 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
+<meta property="og:image" content="/images/logo.png">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
@@ -72,6 +73,8 @@
     </script>
 {% endif %}
 
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[page.author] %}
 
 <!-- Icons -->
 <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=Om58R7grGX">

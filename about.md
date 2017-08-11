@@ -22,17 +22,17 @@ chart: false
     {% endif %}
 {% endfor %}
 
-
-<div class="about">
-  <img class="about" src="{{ site.url }}/images/avatar.jpg" alt="Author photo: Krystian Zawodniak">
-  <p class="about">
-  Krystian Zawodniak, Founder. Credit: <a href="zach-collins.com">Zach Collins</a>
-  </p>
-</div>
+<p></p>
 
 **know-fi** is a music-blog dedicated to writing about music without using linear rating systems (ex. 0-10). Alongside reviews, know-fi writes about trends in the music industry, as well as other music-related opinion pieces.
 
 Krystian (based out of Boston, MA) has launched this project to learn more about the music he loves, write about it, and practice building a website. Check out [this site's GitHub repository](https://github.com/worldkrysis/know-fi). Browse Krystian's [recently played from his laptop](https://www.last.fm/user/worldkrysis).
+
+### About Authors:
+
+<br><br>
+
+
 
 ### Listening Set-Up:
 *Quality varies between Apple Music [256 kbps] or 320/Lossless kbps saved locally*
