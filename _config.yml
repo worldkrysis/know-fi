@@ -6,7 +6,7 @@ share:              true
 #dropcap is the big letter at beginning of story
 dropcap:            true
 
-url:                http://localhost:4000
+url:                /know-fi
 
 owner:
   name:           Krystian Zawodniak
