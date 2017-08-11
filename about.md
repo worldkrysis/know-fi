@@ -33,21 +33,6 @@ Krystian (based out of Boston, MA) has launched this project to learn more about
 <br><br>
 
 
-
-### Listening Set-Up:
-*Quality varies between Apple Music [256 kbps] or 320/Lossless kbps saved locally*
-
-On-the-Go:
-  AirPods
-
-Hi-End Headphones:
-  Meze 99 Classics Walnut Silver Headphones + OPPO HA-2SE Portable Headphone Amplifier & DAC
-Speakers:
-  Creative Gigaworks 750 + Focusrite 2i4 + AU Lab
-    *EQ’d for overly aggressive low-end on Creative Set*
-  Audioengine A2+ (rare)
-
-
 <br> <br>
 
 **know-fi** currently has {{ site.posts | size }} posts in {{ site.categories | size }} categories which combinedly have {{ total_words }} words, which will take an average reader ({{ site.wpm }} WPM) approximately <span class="time">{{ total_readtime }}</span> minutes to read. {% if featuredcount != 0 %}There are <a href="{{ site.url }}/featured">{{ featuredcount }} featured posts</a>, you should definitely check those out.{% endif %} The most recent post is {% for post in site.posts limit:1 %}{% if post.description %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}">"{{ post.title }}"</a>{% else %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.description }}" title="Read more about {{ post.title }}">"{{ post.title }}"</a>{% endif %}{% endfor %} which was published on {% for post in site.posts limit:1 %}{% assign modifiedtime = post.modified | date: "%Y%m%d" %}{% assign posttime = post.date | date: "%Y%m%d" %}<time datetime="{{ post.date | date_to_xmlschema }}" class="post-time">{{ post.date | date: "%d %b %Y" }}</time>{% if post.modified %}{% if modifiedtime != posttime %} and last modified on <time datetime="{{ post.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ post.modified | date: "%d %b %Y" }}</time>{% endif %}{% endif %}{% endfor %}.

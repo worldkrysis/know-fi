@@ -9,14 +9,18 @@
                             <h1>{{ author.name }}</h1>
 
 
-                            <p><a href="mailto:{{ author.email }}" class="author-website">{{ author.email }}</a></p>
-
-
-                            <p>{{ site.owner.description }}</p>
-
-                            <p>{{ author.byline }}</p>
-                            
-                            <p> Photo Credit: <a href="zach-collins.com">Zach Collins</a></p>
+                            <p class="smally"><a href="mailto:{{ author.email }}" class="author-website">{{ author.email }}</a><a href="http://twitter.com/{{ author.twitter }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                </span>
+                            </a>
+                            <br>
+                            {{ author.byline }}
+                            <br>
+                            {{ author.setup}}
+                            <br>
+                            Photo Credit: <a href="zach-collins.com">Zach Collins</a></p>
 
                     </section>
                 </div>
