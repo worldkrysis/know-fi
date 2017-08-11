@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rimbaudian - Letters
-Headline: "this is where the byline goes???"
+headline: Armand Jakobsson’s new release on Ten Thousand Yen isn’t ground-breaking or genre-bending, but tells a lot about what house is missing today.
 description: "Delve deeper."
 category: long-read
 tags:
