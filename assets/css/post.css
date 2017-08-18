@@ -329,7 +329,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     .post-template div.centering1 {
       position: fixed;
       text-align: center;
-      bottom: 4rem;
+      bottom: 1rem;
       width: 100%;
     }
 
@@ -350,7 +350,6 @@ html, body, .notepad-post-container, .notepad-post-header {
 
 /* if i wanted to add background color change background. if i want same image, bigger, and below, copy remove trigger, and change color. also add to post.html */
   .post-template button.trigger {
-    top: 4.6rem;
     z-index: 5000;
     display: inline;
     padding: 0;
