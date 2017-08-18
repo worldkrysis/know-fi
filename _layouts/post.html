@@ -5,7 +5,7 @@
 {% include head.html %}
 {% if site.dropcap %} <!--- To enlarge the first letter of content http://webplatform.adobe.com/dropcap.js/ --->
   <style type="text/css">
-    @media only screen and (min-width:43.75em){
+    /* @media only screen and (min-width:43.75em){ */
       .notepad-post-content div>p:first-child:first-letter{
         float:left;
         font-size:4.688rem;
@@ -65,7 +65,7 @@
                     </div>
             </div>
 
-          <div class="show-for-landscape show-for-medium"> <!--- landscape on mobile devices --->
+          <div class="show-for-medium-only"> <!--- landscape on mobile devices --->
                     <div class="notepad-post-graveyard-landscape">
                       <div class="notepad-post-imageholder-landscape">
                         <div class="bg-img">
@@ -83,7 +83,7 @@
                     </div>
             </div>
 
-            <div class="hide-for-print hide-on-print show-for-small"> <!--- mobile version of header --->
+            <div class="hide-for-print hide-on-print show-for-small-only"> <!--- mobile version of header --->
                     <div class="notepad-post-graveyard-small">
                       <div class="notepad-post-image-small">
                         <div class="bg-img-small">
@@ -101,19 +101,9 @@
 
               <div class="hide-for-print hide-on-print centering1">
                 <div class="centering2">
-                  <div class"centering3">
                     <button class="trigger"><span>Trigger</span></button>
-                  </div>
                 </div>
             </div>
-
-            <div class="hide-for-print show-for-landscape show-for-medium centering11">
-              <div class="centering2">
-                <div class"centering3">
-                  <button class="trigger"><span>Trigger</span></button>
-                </div>
-              </div>
-          </div>
 
           <br><br><br><br><br><br><br><p class="print-only"> Sorry! Please cancel this print command, and scroll down to the article to print this page, this is a bug I am working on. -Krys</p>
 
