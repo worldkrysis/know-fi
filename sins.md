@@ -12,7 +12,7 @@ Last Modified: {{ page.modified }}
 
 #### Artists/Albums I’ve Never Listened To/Not Listened Enough To:
 * Animal Collective (but I like Panda Bear way too much)
-* Beach Boys material that isn’t Pet Sounds
+* Beach Boys material that isn’t *Pet Sounds*
 * Bjork
 * Captain Beefheart
 * Can
@@ -20,12 +20,12 @@ Last Modified: {{ page.modified }}
 * Death Grips
 * The Doors
 * <del>John Lennon and the Plastic Ono Band</del>
-* The Kinks (outside of Village Green Preservation Society)
+* The Kinks (outside of *Village Green Preservation Society*)
 * Makaveli
 * <del>Mos Def</del>
 * MF Doom
 * N.W.A. (but love Dre)
-* Pink Floyd (Ummagumma, A Saucerful of Secrets, Zabriskie Point, etc.)
+* Pink Floyd (*Ummagumma, A Saucerful of Secrets, Zabriskie Point,* etc.)
 * Plaid
 * Portishead
 * Prince
@@ -47,10 +47,10 @@ Last Modified: {{ page.modified }}
 * Messer Chups
 * Peaking Lights’ 936
 * Pernice Brothers
-* I.N.I.’s Center of Attention
+* I.N.I.’s *Center of Attention*
 * Porches
 * Ramriddlz
 * Sally Shapiro
 * Sesame Street’s (Quincy Jones’) “Pinball Number Count”
 * Usher
-* 9th Wonder’s The Wonder Years
+* 9th Wonder’s *The Wonder Years*
