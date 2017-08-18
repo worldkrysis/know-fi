@@ -52,6 +52,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     margin: 0 auto;
     min-height: 560px;
     width: 100%; }
+
     .post-template .notepad-post-header .notepad-post-menu-header {
       width: 100%;
       height: 5rem;
@@ -79,6 +80,16 @@ html, body, .notepad-post-container, .notepad-post-header {
     overflow: hidden;
   }
 
+  .post-template .notepad-post-header .notepad-post-graveyard-landscape {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width:100%;
+    min-height: 100%;
+    height: auto !important; /*min-height hack*/
+    height: 100%;
+    overflow: hidden;
+  }
+
         .post-template .notepad-post-header .notepad-post-graveyard-small {
           margin-top: 5rem;
           margin-bottom: 5rem;
@@ -87,6 +98,7 @@ html, body, .notepad-post-container, .notepad-post-header {
         }
 
   .post-template .notepad-post-imageholder {
+    margin-top: 7rem;
     float: left;
     width: 50%;
     text-align: center;
@@ -96,11 +108,30 @@ html, body, .notepad-post-container, .notepad-post-header {
     overflow: hidden;
   }
 
+  .post-template .notepad-post-imageholder-landscape {
+    margin-top: 3rem;
+    float: left;
+    width: 50%;
+    text-align: center;
+    /* background: red; */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 70%;
+  }
+
   .post-template .bg-img {
     vertical-align: middle;
-    margin-top: 7rem;
     position: relative;
     width: 100%;
+    height: auto;
+  }
+
+  .post-template .bg-img-landscape {
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    height: auto;
   }
 
   @media only screen and (min-width:1000px) {
@@ -126,6 +157,19 @@ html, body, .notepad-post-container, .notepad-post-header {
       padding-top: 2.5rem; */
       width: 85%;
       height: auto;
+    }
+
+    @media only screen and (max-height:500px) {
+      .post-template .bg-img img {
+        position: relative;
+        top: 0;
+        /* padding-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 2.5rem; */
+        width: 70%;
+        height: auto;
+      }
     }
 
     .post-template .bg-img-small {
@@ -169,11 +213,20 @@ html, body, .notepad-post-container, .notepad-post-header {
     overflow: hidden;
   }
 
-  .post-template .notepad-post-title {
+  .post-template .notepad-post-title-placeholder-landscape {
+    float: right;
+    width: 50%;
+    text-align: left;
+    /* background: red; */
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .post-template .notepad-post-title {    /* the margin padding seems to break things, poor code design */
     vertical-align: middle;
     z-index: 1000;
-    margin-top: 5rem;
-    padding-top: 7rem;
+    margin-top: 50%;
     padding-right: 5rem;
     padding-left: 1rem;
     position: relative;
@@ -190,6 +243,28 @@ html, body, .notepad-post-container, .notepad-post-header {
       /* margin: 0 auto; */
       line-height: 1.1;
       text-transform: uppercase; }
+
+      .post-template .notepad-post-title-landscape {    /* the margin padding seems to break things, poor code design */
+        vertical-align: middle;
+        z-index: 1000;
+        padding-top: 5rem;
+        padding-right: 5rem;
+        padding-left: 1rem;
+        position: relative;
+        width: 100%;
+       }
+
+       .post-template .notepad-post-title-landscape h1 {
+         color: black;
+         font-weight: 800;
+         font-size: 2em;
+         /* margin: 0 auto; */
+         line-height: 1.1;
+         text-transform: uppercase; }
+
+         .post-template .notepad-post-title-landscape p {
+           font-size: .7em;
+           }
 
       .post-template .notepad-post-title-small {
         top: 65%;
@@ -237,6 +312,13 @@ html, body, .notepad-post-container, .notepad-post-header {
       bottom: 4rem;
       width: 100%;
     }
+
+    .post-template div.centering11 {
+      position: absolute;
+      text-align: center;
+      bottom: 13rem;
+      width: 100%;
+      }
 
     .post-template div.centering2 {
       position: relative;
@@ -407,6 +489,10 @@ html, body, .notepad-post-container, .notepad-post-header {
         margin: 0 auto 2em auto;
         max-width: 56.25rem;
         font-size: 1.125rem; }
+        .post-template .notepad-post-content > div:not(.notepad-post-title) p.poopquote {
+          text-indent: 5em;
+          margin-top: -2.5rem;
+          font-weight: bold}
         .post-template .notepad-post-content > div:not(.notepad-post-title) p:first-child {
           font-size: 1.375rem;
           font-weight: 300; }
@@ -559,7 +645,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       margin-bottom: 1.25rem; }
       @media only screen and (min-width: 40.063em) {
         .notepad-author-info .notepad-post-author .notepad-post-author-avatar {
-          margin-right: 3.125rem;
+          margin-right: 4rem;
           margin-bottom: 0;
           float: left; } }
     @media only screen and (min-width: 40.063em) {
@@ -726,8 +812,7 @@ html, body, .notepad-post-container, .notepad-post-header {
   max-width: 58.125rem;
   margin-left: -0.9375rem;
   margin-right: -0.9375rem; }
-  .post-template .row p,
-  .page-template .row p {
+  .post-template .row p, .page-template .row p { /*this is where the .row sizes are determined */
     margin: 0 auto 2em auto !important;
     max-width: 56.25rem !important;
     font-size: 1.125rem !important; }
@@ -876,3 +961,10 @@ iframe {
 }
 
 .tag-box a span {font-size:10px;vertical-align:super;color:black;}
+
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+}

@@ -6,8 +6,40 @@ krys:
     email:          krys@know-fi.com
     twitter:        worldkrysis
     github:         worldkrysis
-    byline:         I can't believe I spent months on this and no one is reading it... I need to drink more beer.
+    soundcloud:     worldkrysis
+    byline:         I can't believe I spent months on this and no one is reading it... I need another beer.
     setup:          Meze 99 Classics + OPPO HA-2SE + Apple Music/320/ALAC
 
 ryan:
     name: Ryan Scullin
+    avatar:
+    avatarcredit:
+    email:
+    twitter:
+    github:
+    soundcloud:
+    byline:
+    setup:
+
+
+zach:
+  name: Zach Collins
+  avatar:
+  avatarcredit:
+  email:
+  twitter:
+  github:
+  soundcloud:
+  byline:
+  setup:
+
+matt:
+  name: Matt Eisenberg
+  avatar:
+  avatarcredit:
+  email:
+  twitter:
+  github:
+  soundcloud:
+  byline:
+  setup:

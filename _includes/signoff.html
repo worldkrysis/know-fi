@@ -3,24 +3,36 @@
                     <section class="notepad-post-author small-12 columns">
 
                             <img src="{{ site.url }}/images/{{ author.avatar }}" class="notepad-post-author-avatar" alt="{{ author.name }}'s photo">
-
-
+                              <div class="small-12 columns">
+                                <p class="smally">Photo Credit: <a href="zach-collins.com">Zach Collins</a>
+                                <p>
+                              </div>
                             <span class="author-label">Author</span>
                             <h1>{{ author.name }}</h1>
-
-
-                            <p class="smally"><a href="mailto:{{ author.email }}" class="author-website">{{ author.email }}</a><a href="http://twitter.com/{{ author.twitter }}">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                    <i class="fa fa-twitter fa-stack-1x"></i>
-                                </span>
-                            </a>
+                            <p><a href="mailto:{{ author.email }}" class="author-website">{{ author.email }}</a>
+                            {% if author.twitter %}
+                              <a href="http://twitter.com/{{ author.twitter }}">
+                                  <span class="fa-stack fa-lg">
+                                      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                      <i class="fa fa-twitter fa-stack-1x"></i>
+                                  </span>
+                              </a>
+                            {% endif %}
+                            {% if author.soundcloud %}
+                              <a href="http://soundcloud.com/{{ author.soundcloud }}">
+                                  <span class="fa-stack fa-lg">
+                                      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                      <i class="fa fa-soundcloud fa-stack-1x"></i>
+                                  </span>
+                              </a>
+                            {% endif %}
                             <br>
                             {{ author.byline }}
                             <br>
                             {{ author.setup}}
-                            <br>
-                            Photo Credit: <a href="zach-collins.com">Zach Collins</a></p>
+                            <br><br>
+                            <strong>Check Mortal Sins</strong> <a href="/sins.html">Here<a>
+                            </p>
 
                     </section>
                 </div>

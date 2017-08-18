@@ -47,24 +47,43 @@
               </div>
               <div class="clearfix"></div>
             </div>
-            <div class="show-for-medium-up">
+            <div class="hide-for-print hide-on-print show-for-large-up">
                     <div class="notepad-post-graveyard">
                       <div class="notepad-post-imageholder">
                         <div class="bg-img">
-                            <img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />
+                            <img class="bg-img" src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />
                         </div>
                       </div>
                       <div class="notepad-post-title-placeholder">
                         <div class="notepad-post-title bg-check"> <!--- header/text --->
-                          <h1>{{ page.title }}</h1>
-                          <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
-                          </p><p class="time"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+                         <h1>{{ page.title }}</h1>
+                          <p>by <strong>{{ author.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
+                          </p><p class="time"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> || Last Modified: {{ page.modified }}
                           </p>
                         </div>
                       </div>
                     </div>
-              </div>
-              <div class="show-for-small"> <!--- mobile version of header --->
+            </div>
+
+          <div class="show-for-landscape show-for-touch">
+                    <div class="notepad-post-graveyard-landscape">
+                      <div class="notepad-post-imageholder-landscape">
+                        <div class="bg-img">
+                            <img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />
+                        </div>
+                      </div>
+                      <div class="notepad-post-title-placeholder-landscape">
+                        <div class="notepad-post-title-landscape bg-check"> <!--- header/text --->
+                        <h1>{{ page.title }}</h1>
+                          <p>by <strong>{{ author.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
+                          </p><p class="time"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> || Last Modified: {{ page.modified }}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+
+            <div class="hide-for-print hide-on-print show-for-small"> <!--- mobile version of header --->
                     <div class="notepad-post-graveyard-small">
                       <div class="notepad-post-image-small">
                         <div class="bg-img-small">
@@ -73,25 +92,37 @@
                       </div>
                       <div class="notepad-post-title-small bg-check"> <!--- header/text --->
                         <h1>{{ page.title }}</h1>
-                        <p>by <strong>{{ site.owner.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
+                        <p>by <strong>{{ author.name }}</strong> &#8212; {% assign tagsize = page.tags.size %}{% if tagsize != 0 %}on {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %}
                         </p>
-                        <p class="time"><strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time></strong></p>
+                        <p class="time"><strong><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time> || Last Modified: {{ page.modified }}</strong></p>
                       </div>
                     </div>
-              </div>
+            </div>
 
-              <div class="centering1">
+              <div class="hide-for-print hide-on-print centering1">
                 <div class="centering2">
                   <div class"centering3">
                     <button class="trigger"><span>Trigger</span></button>
                   </div>
                 </div>
             </div>
+
+            <div class="hide-for-print show-for-landscape show-for-touch centering11">
+              <div class="centering2">
+                <div class"centering3">
+                  <button class="trigger"><span>Trigger</span></button>
+                </div>
+              </div>
+          </div>
+
+          <br><br><br><br><br><br><br><p class="print-only"> Sorry! Please cancel this print command, and scroll down to the article to print this page, this is a bug I am working on. -Krys</p>
+
           </header>
 
           <article class="notepad-post-content post">
                       <div>
                         <h1>{{ page.title }}</h1>
+                        <h5 font-color="#7a7a7a">{{ page.headline }}</h5>
                         {{ content }}
                       </div>
                     </article>
