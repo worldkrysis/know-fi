@@ -128,7 +128,7 @@ html, body, .notepad-post-container, .notepad-post-header {
 }
 
   .post-template .notepad-post-imageholder-landscape {
-    margin-top: 1rem;
+    margin-top: 2rem;
     float: left;
     width: 50%;
     text-align: center;
@@ -394,10 +394,10 @@ html, body, .notepad-post-container, .notepad-post-header {
     content: attr(data-info);
     font-size: 1.125rem;
     text-transform: uppercase;
-    -webkit-backface-visibility: hidden;
+  /*  -webkit-backface-visibility: hidden; */
     text-align: center; }
   .post-template button.trigger:focus {
-    outline: none;
+    outline: none; /* if you hover mouse over it should do something*/
     text-align: center;
   }
   .post-template button.trigger span {

@@ -2,8 +2,9 @@
 Part-CS learning project (Ruby, CSS, JS, HTML), part-writing project for my biggest passion: music. All comments/suggestions are appreciated, whether on coding or on writing.
 
 ## Known bugs:
-- unnecessary spaces in between tags on posts
 - trigger for header scroll does not work with iOS devices, have to manually click button to activate
+  - on landscape, trigger button doesn't show when user has open tabs in safari browser. turn to portrait mode and then continue reading.
+- image optimization could be better. 
 
 
 Cheers,

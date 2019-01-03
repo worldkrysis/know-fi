@@ -14,7 +14,7 @@ imagefeature: rimbaudian-letters.jpg
 imagecredit: https://tenthousandyen.bandcamp.com/album/rimbaudian-letters
 comments: true
 share: true
-modified: 17 Aug 2017
+modified: 8 Oct 2017
 author: krys
 ---
 
@@ -30,6 +30,7 @@ author: krys
 **What to Skip:** None <br>
 **Accessibility:** Already into disco/soul-sampled house, somewhat of a social outcast. <br>
 **Where to get:** <a href="https://tenthousandyen.bandcamp.com/album/rimbaudian-letters"><i class="fa fa-bandcamp fa-lg" aria-hidden="true"></i></a> <br>
+**Quality Preference:** Since it's only on Bandcamp, get the 320kbps version. Didn't test against lower/higher. <br>
 
 <div><p>T</p></div>here is an element of Rimbaudian’s (born Armand Jakobsson) record that brings you back to Grant’s opening sample on *Cranks* (fellow Lobster Theremin artist under his DJ Seinfeld alias):
 
@@ -59,7 +60,7 @@ It feels as though the writer is reminding what the lover said on the first nigh
 
 His confession, "I Would Do Everything I Did Again And Again" is when he can no longer hold back. Without even bothering with a build-up, the song drops you into the middle of itself (minus the bass/sub-bass synth). With Aaliyah-like vocals and a gorgeous reverb-filled grand piano that tumbles over itself, you leave the dance floor chasing after your lover with a melancholic and desperate plea. Towards the end of the piece, everything has been stripped away until you are only left with the piano and the vocals, and then *again*, the song picks up where it left you a minute earlier: you believed you moved closer to your goal, only to be placed back where you started. While the title alludes to the ups and downs of the lovers’ encounter, you feel inclined to pity rather than emphasize with the narrator.
 
-That leaves “I Said Goodbye To Dreams Of You At The Shore,” the weakest of the songs on the album. A pleasant, tropical-influenced closing track, this fails to make as strong a statement as the previous tracks. To some extent, this is the purpose of the song: if the author left the dream of their relationship, then it no longer colors their life. There is a screeching synth around 2:30 that briefly colors the mix, adding the layer that their relationship will continue to sporadically appear in the wavy palms of somewhere far-off, but will disappear as quickly as you noticed it. The <a href="http://www.whosampled.com/sample/486444/Rimbaudian-I-Said-Goodbye-to-Dreams-of-You-at-the-Shore-Big-Moses-Kenny-Bobien-Brighter-Days/">Brighter Days sample</a> that closes off the track is tasteful, and redeems the lackluster middle, with the unreal falsetto of Kenny Bobian adding another vulnerability to the mix. The warped whispers of “Oh love is on the way / Don’t you stray...” along with the wailing pull you further into his uneasy dream, as though you are still waiting on the shore for his lover to come back.
+That leaves “I Said Goodbye To Dreams Of You At The Shore,” the weakest of the songs on the album. A pleasant, tropical-influenced closing track, this fails to make as strong a statement as the previous tracks. To some extent, this is the purpose of the song: if the author left the dream of their relationship, then it no longer colors their life. It cleverly reinterprets the main melody from the opening track, stripping it down and making it more melancholic. There is a screeching synth around 2:30 that briefly colors the mix, adding the layer that their relationship will continue to sporadically appear in the wavy palms of somewhere far-off, but will disappear as quickly as you noticed it. The <a href="http://www.whosampled.com/sample/486444/Rimbaudian-I-Said-Goodbye-to-Dreams-of-You-at-the-Shore-Big-Moses-Kenny-Bobien-Brighter-Days/">Brighter Days sample</a> that closes off the track is tasteful, and redeems the lackluster middle, with the unreal falsetto of Kenny Bobian adding another vulnerability to the mix. The warped whispers of “Oh love is on the way / Don’t you stray...” along with the wailing pull you further into his uneasy dream, as though you are still waiting on the shore for his lover to come back.
 
 Returning back to Grant’s “Mainstream Belief”, it closes with another quote, highlighting that dance music was one of the first music genres to become “faceless,” and therefore colorless and genderless. If Jakobsson’s multiple aliases and continuing references to Arthur Rimbaud shed any light, it's that truly emotionally fulfilling music is not limited to one genre, nor one location, nor one project. There are few dance records that will tell such a complete story without lyrics (the titles do assist in filling in the blanks), and other artists should take note. With listed contributors including Scuba, Axel Boman, J Rocc, Catz ‘n Dogz, Joe Goddard, Bodhi, and Fred P among others, it shows why Rimbaudian/DJ Seinfeld has been taken seriously. I’m not only excited for future releases of Rimbaudian, but all his other aliases as well.
 

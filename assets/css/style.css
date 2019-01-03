@@ -1077,3 +1077,11 @@ img.mfp-img {
 p.time {
   color: #8C8C8C
 }
+
+p.smally {
+  position: absolute !important;
+}
+
+p.leftyleft {
+  padding-left: 14.5em;
+}
